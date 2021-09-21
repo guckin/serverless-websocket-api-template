@@ -1,6 +1,4 @@
-# Template Lambda
-
-Typescript/Node template for AWS Lambda that deploys with AWS SAM using Github Actions
+# Serverless Websocket API Template
 
 ### Prerequisites
 

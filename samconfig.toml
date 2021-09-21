@@ -2,9 +2,9 @@ version = 0.1
 [default]
 [default.deploy]
 [default.deploy.parameters]
-stack_name = "template-lambda-app"
+stack_name = "serverless-websocket-api-template"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-6ge24nirg7k8"
-s3_prefix = "template-lambda-app"
+s3_prefix = "serverless-websocket-api-template"
 region = "us-west-2"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
