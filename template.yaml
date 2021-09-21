@@ -126,7 +126,7 @@ Resources:
       - TemplateWebSocketAPI
     Properties:
       Action: lambda:InvokeFunction
-      FunctionName: !Ref OnConnectFunction
+      FunctionName: !Ref OnDisconnectFunction
       Principal: apigateway.amazonaws.com
   SendMessageFunction:
     Type: AWS::Serverless::Function
@@ -145,7 +145,7 @@ Resources:
       - TemplateWebSocketAPI
     Properties:
       Action: lambda:InvokeFunction
-      FunctionName: !Ref OnConnectFunction
+      FunctionName: !Ref SendMessageFunction
       Principal: apigateway.amazonaws.com
 
 Outputs:
