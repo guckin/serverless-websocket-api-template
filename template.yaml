@@ -134,7 +134,7 @@ Resources:
       PackageType: Image
       ImageUri: ECR URL
       ImageConfig:
-        Command: [ "lambdas.onSendFunction" ]
+        Command: [ "lambdas.sendMessageFunction" ]
     Metadata:
       DockerTag: nodejs14.x-v1
       DockerContext: .
